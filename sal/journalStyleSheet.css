@@ -1,0 +1,19 @@
+/* Get banner image and make it scale to fit the page. */
+
+#container {
+	min-width: 200pm;
+}
+
+#header h1 {
+	padding: 0.5em 10% 0.25em 10%;
+}
+
+#container #header #headerTitle h1 img {
+text-align: center !important;
+width: 100% !important;
+height: 100%;
+margin: 0 auto;
+padding: 0;
+width: 100%;
+background-position: center;
+}
