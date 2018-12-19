@@ -1,0 +1,12 @@
+#issueCoverImage img{
+max-width: 100%;
+height: auto;
+}
+
+#header {
+background-color: transparent;
+}
+
+.journalDescription {
+padding-left: 110px;
+}
