@@ -1,0 +1,6 @@
+/*Hide the default "Current" issue link, which goes to the most recently published issue. Next, use journal Setup Step 5 to add in a Navigation Bar item with the desired (offsiye) current issue.*/
+
+li#current {
+  	display:none; !menu bar, archives
+}
+
