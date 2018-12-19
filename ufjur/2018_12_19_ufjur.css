@@ -1,3 +1,6 @@
+/* UF Journal of Undergraduate Research custom css */
+/* This journal is in OJS 2.4.8 and is using the default theme. */
+
 html {
 	height: 100%;
 }
@@ -11,7 +14,6 @@ body {
 
 #container {
 	background-color: transparent;
-	/*height: 100%;*/
 }
 
 #body {
@@ -21,7 +23,6 @@ body {
 	height: 0%;
 	min-height: 70%;
 	overflow-y: auto;
-	overflow-x: hidden;
 	-webkit-box-shadow: 0 10px 20px 5px rgba(7,33,76,.2);
 	box-shadow: 0 10px 20px 5px rgba(7,33,76,.2);
 }
@@ -42,19 +43,21 @@ img {
 	border: 0;
 }
 
-#header {
+/* Theming banner image across tops of pages.  */
 
+#container {
+	min-width: 200pm;
 }
 
 #header h1 {
+	padding: 0.5em 10% 0.25em 10%;
 	background-color: #fff;
 	padding: 0;
 	text-align: center;
-	padding-bottom: 20px;
 }
 
-#headerTitle {
-	text-align: center;
+#headerTitle h1 img {
+	max-width: 100%;
 }
 
 #main {
@@ -64,7 +67,6 @@ img {
 	border: 0;
 	margin: 0;
 	padding: 0;
-
 }
 
 #navbar {
@@ -87,23 +89,24 @@ img {
 	background-color: #0b1922;
 }
 
+/* Menu across the top of pages with options like Home, About, User Home, etc. */
+
 ul.menu {
 	margin: 0 auto;
-	padding: 0;
+	padding: 10px;
 	max-width: 1200px;
 	text-align: left;
-	height: 35px;
+	height: 100%;
 }
 
 ul.menu li {
-	padding: 12px 30px 10px 30px;
+	padding: 0px 30px 0px 30px;
 	vertical-align: -webkit-baseline-middle;
 	vertical-align: -moz-middle-with-baseline;
 	border-left: 1px solid #fff;
-	border-right: 1px solid #fff;
-	margin-right: -5.1px;
 	font-size: 1.2em;
 	font-weight: 200;
+	white-space: nowrap;
 }
 
 #breadcrumb {
@@ -206,8 +209,8 @@ ul.menu li {
 /* Center the cover image on a journal issue's splash page. */
 #issueCoverImage img {
 	display: block;
-margin-left: auto;
-margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #content .menu {
