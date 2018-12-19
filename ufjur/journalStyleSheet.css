@@ -48,8 +48,8 @@ img {
 	padding-bottom: 20px;
 }
 
-#headerTitle {
-	text-align: center;
+#headerTitle h1 img {
+	max-width: 100%;
 }
 
 #main {
@@ -80,6 +80,8 @@ img {
 	text-decoration: underline;
 	background-color: #0b1922;
 }
+
+/* Menu across the top of pages with options like */
 
 ul.menu {
 	margin: 0 auto;
