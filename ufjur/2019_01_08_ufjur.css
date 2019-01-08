@@ -1,0 +1,246 @@
+/* UF Journal of Undergraduate Research custom css */
+/* This journal is in OJS 2.4.8 and is using the default theme. */
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Lato', 'Arial', sans-serif;
+	background-image: url('http://www.ufl.edu/media/templates/uf2015/img/bg-texture.png');
+	height: 100%;
+	position: relative;
+}
+
+#container {
+	background-color: transparent;
+}
+
+#body {
+	margin: 0px auto;
+	max-width: 1200px;
+	background-color: #fff;
+	height: 0%;
+	min-height: 70%;
+	overflow-y: auto;
+	-webkit-box-shadow: 0 10px 20px 5px rgba(7,33,76,.2);
+	box-shadow: 0 10px 20px 5px rgba(7,33,76,.2);
+}
+
+a {
+	border: 0 !important;
+}
+
+a:hover {
+	color: #370209;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+
+/* Theming banner image across tops of pages.  */
+
+#container {
+	min-width: 200pm;
+}
+
+#header h1 {
+	padding: 0.5em 10% 0.25em 10%;
+	background-color: #fff;
+	padding: 0;
+	text-align: center;
+}
+
+#headerTitle h1 img {
+	max-width: 100%;
+}
+
+#main {
+	width: 100%;
+	height: 100%;
+	background-color: initial;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar {
+	width: 100%;
+	background-color: #0021A0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	position: absolute;
+	left: 0;
+}
+
+#navbar a {
+	color: #fff;
+	letter-spacing: 1.5px;
+}
+
+#navbar a:hover {
+	text-decoration: underline;
+	background-color: #0b1922;
+}
+
+/* Menu across the top of pages with options like Home, About, User Home, etc. */
+
+ul.menu {
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 1200px;
+	text-align: left;
+	height: 100%;
+}
+
+ul.menu li {
+	padding: 0px 30px 0px 30px;
+	vertical-align: -webkit-baseline-middle;
+	vertical-align: -moz-middle-with-baseline;
+	border-left: 1px solid #fff;
+	font-size: 1.2em;
+	font-weight: 200;
+	white-space: nowrap;
+}
+
+#breadcrumb {
+	color: #aaa9a9;
+	border: 0;
+	text-align: left;
+	background-color: #fff;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 45px 0px 5px 30px;
+}
+
+#breadcrumb a {
+	color: #aaa9a9;
+}
+
+#breadcrumb a:hover {
+	color: #8b8a8a;
+	text-decoration: underline;
+	background-color: initial;
+}
+
+#main h2 {
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #27507b;
+	background-color: #fff;
+	max-width: 1170px;
+	padding: 5px 0 5px 30px;
+	margin: 0 auto;
+	border-bottom: 1px solid #27507b;
+}
+
+#pkp-common-openJournalSystems h2 {
+	display: none;
+}
+
+#content {
+	border: 0;
+	background-color: #fff;
+	padding: 0 0 30px 0;
+	margin: 0 30px;
+}
+
+#copyright {
+	display: -webkit-inline-box;
+	vertical-align: -2em;
+	padding: 50px 45em;
+}
+
+#fb {
+	display: block;
+	padding-bottom: 1em;
+}
+
+#website {
+	display: block;
+	padding-bottom: 1em;
+}
+
+#insta {
+	display: block;
+	padding-bottom: 1em;
+}
+
+#twitter {
+	display: block;
+	padding-bottom: 1em;
+}
+
+#archive {
+	display: block;
+	padding-bottom: 1em;
+}
+
+#HomePageContainer {
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.navItem{
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+#showReviewers input {
+	display:none;
+}
+
+#showReviewers td {
+	display:none;
+}
+
+/* Get homepage image to the left and blurb of text description of journal to the right. */
+#homepageImage {
+	float: left;
+	margin-right: 5%;
+}
+
+/* Center the cover image on a journal issue's splash page. */
+#issueCoverImage img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content .menu {
+	text-align: center;
+}
+
+#main h3 {
+	text-align: center;
+}
+
+/* Get "About" page text back on the left side of the page (overrides some of the current issue centering). */
+
+#mailingAddress h3 {
+	text-align: left;
+}
+#aboutPeople h3 {
+	text-align: left;
+}
+#aboutPolicies h3 {
+	text-align: left;
+}
+#aboutSubmissions h3 {
+	text-align: left;
+}
+#aboutOther h3 {
+	text-align: left;
+}
+
+/* Position the DOI label on the article pages. */
+/*
+a#pub-id\:\:doi {
+	display: none;
+} */
