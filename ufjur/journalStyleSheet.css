@@ -221,6 +221,24 @@ ul.menu li {
 	text-align: center;
 }
 
+/* Get "About" page text back on the left side of the page (overrides some of the current issue centering). */
+
+#mailingAddress h3 {
+	text-align: left;
+}
+#aboutPeople h3 {
+	text-align: left;
+}
+#aboutPolicies h3 {
+	text-align: left;
+}
+#aboutSubmissions h3 {
+	text-align: left;
+}
+#aboutOther h3 {
+	text-align: left;
+}
+
 /* Position the DOI label on the article pages. */
 /*
 a#pub-id\:\:doi {
