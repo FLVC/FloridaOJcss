@@ -1,16 +1,16 @@
-/* Set a maximum width for the homepage image. */
+/* Set a maximum width for the homepage image.  (Default Theme) */
 #pkp_content_main > div > div.homepage_image > img {
 	max-width: 400px;
 	}
 	
-/* Center the homepage image. */
+/* Center the homepage image.  (Default Theme) */
 #pkp_content_main > div > div.homepage_image > img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	}
 
-/* Add a bit of whitespace to the top of the homepage image. */
+/* Add a bit of whitespace to the top of the homepage image.  (Default Theme) */
 #pkp_content_main > div > div.homepage_image > img {
 	padding-top: 20px;
 	}
