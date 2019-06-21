@@ -15,3 +15,8 @@ padding-left: 110px;
 #pkp_content_main > div > div.journals > ul div.thumb > a > img {
 width: 170px;
 }
+
+/* Get thumbnails lined up on journal back issues in each journal's "Archives" page (for journals using "Default Template"). */
+#pkp_content_main > div > ul div > a.cover > img {
+width: 170px;
+}
