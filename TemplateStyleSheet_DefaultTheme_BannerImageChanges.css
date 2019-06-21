@@ -1,5 +1,0 @@
-/* Resize the banner image in the Default Theme. */
-#headerNavigationContainer > div > div > h1 > a > img {
-	width: 80%;
-	height: auto;
-	}
