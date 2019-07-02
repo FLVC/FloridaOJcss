@@ -1,0 +1,107 @@
+/* Site Background */
+body {	/*Changes overall background of site */
+	background-color: #fff;
+}
+
+/* Header */
+.header { /* Changes header */
+background: #506d38;
+padding-top: 4px;
+border-bottom: 10px solid #abba2b;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {	/* Changes color of navigation bar links when hovered over */
+    color: #dc9e61;
+}
+.nav-tabs:hover, .nav-link:hover{
+	color: #E6EB00 !important;
+}
+.nav-link {	/* Changes horizontal navigation bar */
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+/* Footer */
+.site-footer { /* Changes footer */
+    background-color: #a0b17c;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.pkp_block {	/* Changes upper half of footer */
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.sidebar_wrapper + .additional-footer-info {	/* Changes lower half of footer including dividing bar */
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #000;
+}
+a {	/* Changes underline of links in footer */
+	border-bottom: .05em solid #a0b17c;
+	box-shadow: inset 0 0px 0 #a0b17c;
+}
+
+/* Site font */
+p, body, li, a, footer a, blockquote, cite, dd, legend, h1, h2, h3, h4, h5, h6 { 	/* Changes font for various elements on page such as page buttons */
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* Main Body */
+.cmp_edit_link:focus, .cmp_edit_link:hover {	/* Changes admin edit buttons */
+	color: #000;
+	background-color: #fff;
+	text-decoration: underline #506d38;
+}
+.cmp_edit_link {	/* Administrative Edit button */
+	border-bottom: 0px;
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.issue_title {	/* Changes Archive object title text */
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.issue_summary_title {	/* Changes Archive object volume & Year text */
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 20px;
+}
+.issue_summary_date {	/* Changes Archive object volume & Year text */
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.summary_meta {	/* Changes Archive object volume & Year text */
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.page-item.active .page-link {
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	border: solid 1px #000000 !important;
+	border-color: #000000 !important;
+	background-color: #AABB86;
+	color: black;
+}
+.page-item .page-link {			/* Changes active page navigation buttons at bottom of archives */
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	border: solid 1px #a0b17c;
+	background-color: #a0b17c;
+}
+.page-item .page-link:hover{
+	background-color: #AABB86;
+	color: black;
+}
+
+.btn-secondary {				/* Changes the View All Issues  button when clicking an issue */
+	background-color: #a0b17c;
+	color: #000;
+	border: solid 1px #000;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+	color: #fff;
+	background-color: #000;
+}
+
+a:hover {	/* Changes color of main body links when hovered */
+	color: #006000;
+}
+
+/* Changes color of text when highlighted */
+::selection {
+  background: #5697c4;
+}
