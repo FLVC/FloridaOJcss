@@ -5,7 +5,7 @@ FALSC currently supports the "Default Theme" in OJS 3.
 The Default Theme allows you to upload a custom stylesheet to change the look and feel of a journal.
 
 To select and set up a theme in Florida OJ:
-1.  Log into the software, and go to the admin page for your journal.  This is https://journals.flvc.org/yourjournalurl/admin .
+1.  Log into the software, and go to the admin page for your journal.  This is https://journals.flvc.org/yourjournalurl/management .
 2.  In the left hand column, click to "Settings", then "Website".  This takes you to the main page with your site's color and banner image.
 3.  Look at the drop down menu for "Theme".  At this time, 4 themes are available for OJS 3.  All are anticipated to be available on the production site at the time of the upgrade.  Try out different themes, save the changes, then go to the journal's public view ( https://journals.flvc.org/yourjournalurl/ ) and press CTRL+F5 to refresh the page.
 4.  Each theme will have a color picker area. This is labeled "Colour".  You can click on the colored box under the "Colour" heading, and then select a color that you would like to use with the theme.  Try saving a new color, then go to the journal's public view ( https://journals.flvc.org/yourjournalurl/ ) and press CTRL+F5 to refresh the page.
